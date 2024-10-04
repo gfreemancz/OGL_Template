@@ -2,9 +2,9 @@
 #include <iostream>
 
 void destroy_objects(SDL_Window* window, SDL_Surface* screen, SDL_Surface* img) {
-    SDL_FreeSurface(img);
-    SDL_FreeSurface(screen);
-    SDL_DestroyWindow(window);
+    if(img != nullptr)SDL_FreeSurface(img);
+    if(screen != nullptr)SDL_FreeSurface(screen);
+    if(window != nullptr)SDL_DestroyWindow(window);
     SDL_Quit();
 }
 
@@ -34,9 +34,11 @@ int WinMain() {
         return 1;
     }
 
-    img = SDL_LoadBMP("img.bmp");
+    // img = SDL_LoadBMP("img.bmp");
+    img = SDL_LoadBMP("C:/development/cmake_training/OGL_Template/asets/img.bmp");
+
     if (img == NULL) {
-        std::cerr << "SDL img could not be initialized: " << SDL_GetError() << std::endl;
+        std::cerr << "SDL img could not be initialized: " << std::endl;
         destroy_objects(window, screen, img);
         return 1;
     }

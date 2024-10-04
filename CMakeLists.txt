@@ -13,13 +13,13 @@ set(EXTERNAL_LIBS_HEADER_PATHS)
 
 add_subdirectory("externLibs")
 
-
+# message("${EXTERNAL_LIBS_HEADER_PATHS}")
  
 add_subdirectory("${PROJECT_DIR_SOURCE}")
 
 
 
-message(STATUS "${PROJECT_DIR_SOURCE}")
+# message(STATUS "${PROJECT_DIR_SOURCE}")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_DIR_OPUTPUT}")
 
