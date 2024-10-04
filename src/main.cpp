@@ -34,7 +34,6 @@ int WinMain() {
         return 1;
     }
 
-    // img = SDL_LoadBMP("img.bmp");
     img = SDL_LoadBMP("C:/development/cmake_training/OGL_Template/asets/img.bmp");
 
     if (img == NULL) {
