@@ -1,0 +1,33 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 30B1-3024
+
+ Directory of C:\development\DLLs_x64
+
+29.10.2019  17:44    <DIR>          .
+29.10.2019  17:44    <DIR>          ..
+29.10.2019  17:35                 0 copy_libs.bat
+02.02.2018  15:18         3ÿ195ÿ569 cygwin1.dll
+24.07.2016  10:57           370ÿ176 glew32.dll
+10.08.2013  09:40           374ÿ784 libFLAC-8.dll
+10.08.2013  10:42           540ÿ160 libfreetype-6.dll
+15.01.2017  15:31            75ÿ264 libgcc_s_seh-1.dll
+10.08.2013  09:39           243ÿ200 libjpeg-9.dll
+10.08.2013  09:40           287ÿ232 libmikmod-2.dll
+10.08.2013  09:40           471ÿ040 libmodplug-1.dll
+10.08.2013  09:40            52ÿ224 libogg-0.dll
+10.08.2013  09:39           216ÿ064 libpng16-16.dll
+15.01.2017  15:31         1ÿ421ÿ312 libstdc++-6.dll
+10.08.2013  09:39           451ÿ584 libtiff-5.dll
+10.08.2013  09:40           252ÿ416 libvorbis-0.dll
+10.08.2013  09:40            68ÿ608 libvorbisfile-3.dll
+10.08.2013  09:39           326ÿ656 libwebp-4.dll
+29.10.2019  17:44                 0 list.txt
+19.02.2017  18:33         1ÿ091ÿ584 opengl32.dll
+01.03.2018  08:38         1ÿ334ÿ272 SDL2.dll
+10.08.2013  09:39           111ÿ616 SDL2_image.dll
+10.08.2013  09:40           193ÿ536 SDL2_mixer.dll
+10.08.2013  10:42            57ÿ344 SDL2_ttf.dll
+10.08.2013  09:40           388ÿ608 smpeg2.dll
+10.08.2013  10:42           133ÿ632 zlib1.dll
+              24 File(s)     11ÿ656ÿ881 bytes
+               2 Dir(s)  597ÿ347ÿ540ÿ992 bytes free

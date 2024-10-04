@@ -1,0 +1,28 @@
+{
+  "version": 5,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Windows GCC x64 (MinGW Makefiles) Debug",
+      "description": "Using GCC x64 compiler with \"MinGW Makefiles\" geneartor on Windows - Debug",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/output",
+      "installDir": "${sourceDir}/install",
+      "environment": {
+        "PATH": "C:/development/mingw64/bin;$penv{PATH}"
+      },
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc.exe",
+        "CMAKE_CXX_COMPILER": "g++.exe",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default",
+      "displayName": "Windows GCC x64 (MinGW Makefiles) Debug",
+      "configurePreset": "default"
+    }
+  ]
+}

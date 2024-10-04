@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "C:/development/cmake_training/OGL_Template",
+    "files.associations": {
+        "ostream": "cpp"
+    }
+}
